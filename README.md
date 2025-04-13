@@ -13,11 +13,11 @@ Model: Trained classifier (likely Logistic Regression or Naive Bayes) saved as m
 Training Notebook: Included as sms-classifier.ipynb and sms-classifier-checkpoint.ipynb.
 
  File Structure
-├── app2.py                    # Main Streamlit app
-├── model.pkl                  # Trained ML model
-├── vectorizer.pkl             # TF-IDF vectorizer
-├── sms-classifier.ipynb       # Training and evaluation notebook
-├── sms-classifier-checkpoint.ipynb  # Jupyter checkpoint
+1. app2.py                    # Main Streamlit app
+2.  model.pkl                  # Trained ML model
+3.  vectorizer.pkl             # TF-IDF vectorizer
+4.  sms-classifier.ipynb       # Training and evaluation notebook
+5.  sms-classifier-checkpoint.ipynb  # Jupyter checkpoint
 
 Setup Instructions
 1. Clone the repo or download the files.
@@ -29,12 +29,12 @@ Setup Instructions
 
 How It Works
   Text is cleaned:
-  Lowercased
-  Tokenized
-  Stopwords and punctuation removed
-  Stemmed using PorterStemmer
-  Preprocessed text is vectorized using TF-IDF.
-  The vector is passed into the trained model to predict spam likelihood.
+  1. Lowercased
+  2. Tokenized
+  3. Stopwords and punctuation removed
+  4. Stemmed using PorterStemmer
+  5. Preprocessed text is vectorized using TF-IDF.
+  6. The vector is passed into the trained model to predict spam likelihood.
 
 
 
